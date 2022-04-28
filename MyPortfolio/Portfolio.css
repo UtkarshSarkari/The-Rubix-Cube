@@ -1,0 +1,997 @@
+@font-face {
+    font-family: avenir-lt;
+    src: url(Avenir\ LT\ 35\ Light.ttf);
+}
+html{
+    scroll-behavior: smooth;
+    font-family: avenir-lt;
+}
+body
+{
+    margin: 0px;
+}
+hr
+{
+    margin: 0rem;
+}
+header
+{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#section1 {
+    font-family: avenir-lt;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin: 0rem 0rem 0rem 1.5rem;
+    color: #000957;
+    letter-spacing: 0.05rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0rem 1rem 0rem 0rem;
+}
+li a{
+    text-decoration: none;
+    margin: 1.2rem;
+    font-family: avenir-lt;
+    font-weight: 400;
+    font-size: 0.89rem;
+    position: relative;
+    letter-spacing: 0.03rem;
+    margin-left: 6rem;
+}
+li a:hover
+{
+    font-size: 0.94rem;
+}
+a{
+    color: #000957;
+}
+#one
+{
+    height: 100%;
+    background: url('images/background.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+    z-index: 1;
+    justify-content: center;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+#photo {
+    height: 30rem;
+    width: 30rem;
+    display: inline-block;
+    background-color: white;
+    /* margin: 7rem 1rem 0.2rem 8.5rem; */
+    margin-top: 7rem;
+    margin-right: 1rem;
+    overflow: hidden;
+    z-index: 1;
+}
+#photo img
+{
+    height: 52rem;
+    margin: 0rem -3rem;
+    z-index: 1;
+}
+#about {
+    height: 30rem;
+    width: 30rem;
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    margin: 7rem 0rem 0.2rem 1rem;
+    z-index: 1;
+    font-family: avenir-lt;
+}
+#about1 {
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    margin: 1rem 0rem 0.2rem 1.5rem;
+    z-index: 1;
+    font-family: avenir-lt;
+}
+#name1
+{
+    margin: 3rem 0rem 0rem 2.8rem;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: Avenir LT 35 Light;
+}
+#webdeveloper1
+{
+    font-weight: 500;
+    display: inline-block;
+    margin: 0rem 0rem 0rem 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.01rem;
+}
+.phone
+{
+    display: inline-block;
+    margin: 1rem 0rem 0.2rem 3rem;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.phonenumber
+{
+    display: inline-block;
+    margin: 0rem 6rem 0rem 3rem;
+    font-weight: 300;
+    font-family: avenir-lt;
+}
+#animationline {
+    height: 0.1rem;
+    width: 22rem;
+    background-color: #000957;
+    display: inline-block;
+    margin: 0rem 0rem 0rem 3rem;
+    animation: animationline 2.2s linear 1;
+    animation-delay: 1s;
+}
+@keyframes animationline {
+    0%{
+        width: 0rem;
+    }
+    100%
+    {
+        width: 22rem;
+    }
+    
+}
+#two
+{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#social
+{
+    height: 4.5rem;
+    width: 62rem;
+    background-color: #000957;
+    /* margin: 0rem 0rem 0rem 8.5rem; */
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+#social img{
+    height: 2.2rem;
+    margin: 1rem 1rem;
+}
+.line {
+    height: 0.1rem;
+    width: 16rem;
+    background-color: rgb(241, 241, 241);
+    display: inline-block;
+    margin: 2.15rem 0rem;
+}
+#whoIAm
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+#whoIAm p {
+    text-align: center;
+    word-spacing: 0.1rem;
+    font-weight: 400;
+    margin: 0rem 10rem 4rem 10rem;
+    font-size: 1.1rem;
+}
+#download
+{
+    margin: 0rem 0rem 4rem 0rem;
+}
+#download a 
+{
+    color: #000957;
+    border: 1px solid #000957;
+    padding: 0.5rem;
+    text-decoration: none;
+
+}
+#download a:hover
+{
+    color: white;
+    background-color: #000957;
+    transition: 0.4s;
+}
+#hello {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 8rem 0rem 1rem 0rem;
+}
+#phone
+{
+    margin-top: 2rem;
+}
+#three
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.education {
+    font-family: avenir-lt;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    margin: 2rem 0rem;
+    color: #000957;
+}
+.projects {
+    font-family: avenir-lt;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    margin: 1.5rem 0rem;
+    color: #000957;
+    display: flex;
+    justify-content: center;
+}
+#hr1
+{
+    height: 2px;
+    width: 100%;
+    margin: 0rem;
+    background-color: lightgrey;
+    border: 0px;
+}
+#verticalA {
+    height: 24rem;
+    width: 0.088rem;
+    background-color: rgb(241, 241, 241);
+    margin: 3rem 0rem;
+}
+#verticalA img
+{
+    height: 1rem;
+    margin: -0.4rem -0.45rem 8.5rem -0.45rem;
+}
+#verticalA1 {
+    height: 37rem;
+    width: 0.088rem;
+    background-color: rgb(241, 241, 241);
+    margin: 3rem 8rem;
+}
+#verticalA1 img
+{
+    height: 1rem;
+    margin: -0.4rem -0.45rem 13rem -0.45rem;
+}
+#try{
+    display: none;
+}
+#education1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#yearA
+{
+    font-family: avenir-lt;
+    position: absolute;
+    top: 84rem;
+    left: 31.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+#studentA
+{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 85.6rem;
+    left: 31.9rem;
+    font-size: 0.99rem;
+    letter-spacing: 0.1rem;
+}
+#college {
+    font-family: avenir-lt;
+    position: absolute;
+    top: 84rem;
+    left: 42.6rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#course {
+    font-family: avenir-lt;
+    position: absolute;
+    top: 86.1rem;
+    left: 42.6rem;
+    font-size: 0.89rem;
+    letter-spacing: 0.1rem;
+}
+#yearB {
+    font-family: avenir-lt;
+    position: absolute;
+    top: 93.1rem;
+    left: 31.3rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#studentB {
+    font-family: avenir-lt;
+    position: absolute;
+    top: 96.4rem;
+    left: 31.9rem;
+    font-size: 0.99rem;
+    letter-spacing: 0.1rem;
+}
+#school {
+    font-family: avenir-lt;
+    position: absolute;
+    top: 93.1rem;
+    left: 42.6rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#subject {
+    font-family: avenir-lt;
+    position: absolute;
+    top: 95rem;
+    left: 42.6rem;
+    font-size: 0.89rem;
+    letter-spacing: 0.1rem;
+}
+#addressA {
+    font-family: avenir-lt;
+    position: absolute;
+    top: 88rem;
+    left: 42.6rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.1rem;
+}
+#addressB {
+    font-family: avenir-lt;
+    position: absolute;
+    top: 96.8rem;
+    left: 42.6rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.1rem;
+}
+#yearC {
+    font-family: avenir-lt;
+    position: absolute;
+    top: 102.1rem;
+    left: 31.3rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#school2
+{
+    font-family: avenir-lt;
+    position: absolute;
+    top: 102.1rem;
+    left: 42.6rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#subject2
+{
+    font-family: avenir-lt;
+    position: absolute;
+    top: 104rem;
+    left: 42.6rem;
+    font-size: 0.89rem;
+    letter-spacing: 0.1rem;
+}
+#addressC
+{
+    font-family: avenir-lt;
+    position: absolute;
+    top: 105.8rem;
+    left: 42.6rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.1rem;
+}
+#yearA1
+{
+    font-family: avenir-lt;
+    position: absolute;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    top: 127.7rem;
+    left: 1.4rem;
+}
+#studentA1
+{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 0.99rem;
+    letter-spacing: 0.1rem;
+}
+#college1 {
+    font-family: avenir-lt;
+    position: absolute;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    top: 127.7rem;
+    left: 9rem;
+    font-weight: 700;
+}
+#course1 {
+    font-family: avenir-lt;
+    position: absolute;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    left: 9rem;
+    top: 132rem;
+}
+#yearB1 {
+    font-family: avenir-lt;
+    position: absolute;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    left: 1rem;
+    top: 141.2rem;
+}
+#studentB1 {
+    font-family: avenir-lt;
+    position: absolute;
+    font-size: 0.99rem;
+    letter-spacing: 0.1rem;
+}
+#school1 {
+    font-family: avenir-lt;
+    position: absolute;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    left: 9rem;
+    top: 141.2rem;
+}
+#subject1 {
+    font-family: avenir-lt;
+    position: absolute;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    left: 9rem;
+    top: 145.5rem;
+}
+#addressA1 {
+    font-family: avenir-lt;
+    position: absolute;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    left: 9rem;
+    top: 135.2rem;
+}
+#addressB1 {
+    font-family: avenir-lt;
+    position: absolute;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    left: 9rem;
+    top: 149rem;
+}
+#yearC1 {
+    font-family: avenir-lt;
+    position: absolute;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    left: 1rem;
+    top: 154.8rem;
+}
+#school2A
+{
+    font-family: avenir-lt;
+    position: absolute;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    top: 154.8rem;
+    left: 9rem;
+}
+#subject2A
+{
+    font-family: avenir-lt;
+    position: absolute;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    left: 9rem;
+    top: 159rem;
+}
+#addressC1
+{
+    font-family: avenir-lt;
+    position: absolute;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    top: 161.2rem;
+    left: 9rem;
+}
+#four
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000957;
+}
+#thirteen
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000957;
+}
+#skills
+{
+    color: white;
+}
+#five
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+}
+#fourteen
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000957;
+}
+#certificateone
+{
+    border: 1px solid;
+    padding: 4rem 4rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    width: 35%;
+}
+#certificatetwo
+{
+    border: 1px solid;
+    padding: 3.4rem 4rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    width: 35%;
+}
+#certificatethree
+{
+    margin: 5rem 0rem;
+    border: 1px solid;
+    padding: 2.2rem 4rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    width: 35%;
+}
+img{
+    height: 1rem;
+    margin: 0rem 0rem 0rem -1.25rem;
+}
+#six
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(241, 241, 241);
+    place-items: center;
+}
+#six img{
+    height: 5rem;
+}
+#ten
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(241, 241, 241);
+    place-items: center;
+}
+#ten img{
+    height: 5rem;
+}
+#seven
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+}
+#eight
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(241, 241, 241);
+    place-items: center;
+}
+#eight img{
+    height: 5rem;
+}
+#nine
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 241, 241);
+}
+#verticalB {
+    height: 24.6rem;
+    width: 0.088rem;
+    background-color: rgb(241, 241, 241);
+    margin: 5rem 40rem;
+}
+#verticalB img
+{
+    height: 1rem;
+    margin: -0.4rem -0.45rem 8.5rem -0.45rem;
+}
+#eleven
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#twelve
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#projectA {
+    height: 22rem;
+    width: 90%;
+    border: 1.4px solid;
+    margin: 4rem 1.5rem 4rem 2.5rem;
+    display: flex;
+}
+#projectB {
+    height: 22rem;
+    width: 90%;
+    border: 1.4px solid;
+    margin: 0rem 2.5rem 0rem 1.5rem;
+    display: flex;
+}
+#projectC {
+    height: 22rem;
+    width: 45%;
+    border: 1.4px solid;
+    margin: 2rem 0rem 5rem 0rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+}
+.first
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.second
+{
+    width: 40%;
+    height: 100%;
+    background: url('images/one.jpg') no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+.bluebox {
+    height: 1.1rem;
+    width: 2rem;
+    background-color: #000957;
+    display: inline-block;
+    margin: 2rem 0rem 0rem -0.02rem;
+}
+.projectname
+{
+    font-size: 1.5rem;
+}
+.first p{
+    margin: 2rem 4rem 0rem 2rem;
+    word-spacing: 0.2rem;
+}
+.first a{
+    text-decoration: none;
+    color: #000957;
+    margin: 1rem 12rem 0rem 2rem;
+    border: 1px solid;
+    padding: 0.2rem 0.2rem 0.2rem 0.85rem;
+}
+.first a:hover
+{
+    color: white;
+    background-color: #000957;
+    transition: 0.2s ease-in-out;
+}
+.viewcode
+{
+    padding: 0.2rem 0.2rem 0.2rem 0.6rem !important;
+}
+#certification
+{
+    color: white;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 27%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #000957;
+    border-radius: 0rem;
+    margin: 2rem 0rem;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 15rem;
+    margin: 0rem;
+    background-size: cover;
+}
+.btn-primary
+{
+    width: 49%;
+    background-color: #fff;
+    color: #000957;
+    border-radius: 0rem;
+    border-color: #000957;
+    letter-spacing: 0.04rem;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000957;
+    border-color: #000957;
+}
+.card p{
+    font-family: avenir-lt;
+}
+#certibtn3
+{
+    width: 100%;
+    margin: 1.5rem 0rem 0rem 0rem;
+}
+#certibtn2
+{
+    width: 100%;
+    margin: 3rem 0rem 0rem 0rem;
+}
+#certibtn1
+{
+    width: 100%;
+    margin: 3rem 0rem 0rem 0rem;
+}
+#certificate1
+{
+    margin: 4.2rem 0rem 5rem 0rem;
+    padding: 3rem;
+    font-size: 1.1rem;
+}
+#certificate2
+{
+    margin: 4.2rem 0rem 5rem 0rem;
+    padding: 3rem;
+    font-size: 1.1rem;
+}
+#certificate3
+{
+    margin: 4.2rem 0rem 5rem 0rem;
+    padding: 3rem;
+    font-size: 1.1rem;
+}
+#fifteen
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+#contacthrhorizontal
+{
+    background-color: white;
+    margin: 0rem 0rem;
+    height: 0.12rem;
+}
+#sixteen
+{
+    display: flex;
+}
+#sixteen1
+{
+    height: 30rem;
+    width: 100rem;
+    background-color: rgb(241, 241, 241);
+    font-family: avenir-lt ;
+}
+#sixteen2
+{
+    height: 30rem;
+    width: 100rem;
+    background-color: rgb(241, 241, 241);
+    margin: 0rem 0rem 0rem 0.1rem;
+    font-family: avenir-lt ;
+}
+#contacthrvertical
+{
+    background-color: white;
+    margin: 0rem 0rem;
+    transform:rotate(90deg);
+}
+.card-title {
+    margin-bottom: 0.5rem;
+    font-family: avenir-lt ;
+}
+.card-body
+{
+    border-radius: 0rem;
+}
+.card img{
+    border-radius: 0rem;
+}
+.name
+{
+    font-family: avenir-lt;
+    font-size: 0.89rem;
+}
+#firstname
+{
+    margin: 3rem 7.9rem 0.2rem 10.05rem;
+    display: inline-block;
+}
+#input1 {
+    margin: 0rem 1rem 0rem 10rem;
+    height: 2.2rem;
+    width: 24rem;
+    font-size: 0.89rem;
+    padding: 0rem 1rem 0rem 1rem;
+    outline: none;
+}
+#input1:hover
+{
+    border: 2px solid #000957;
+}
+#input2 {
+    height: 2.2rem;
+    font-size: 0.89rem;
+    padding: 0rem 1rem 0rem 1rem;
+    outline: none;
+}
+#input2:hover
+{
+    border: 2px solid #000957;
+}
+#input3 {
+    margin: 0rem 1rem 0rem 10rem;
+    width: 60.8%;
+    height: 2.2rem;
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 0.89rem;
+    outline: none;
+}
+#input3:hover
+{
+    border: 2px solid #000957;
+}
+#email {
+    margin: 0.8rem 8.2rem 0.2rem 10.05rem;
+    display: inline-block;
+    font-size: 0.89rem;
+}
+#message {
+    margin: 0.8rem 8.2rem 0.2rem 10.05rem;
+    display: inline-block;
+    font-size: 0.89rem;
+}
+textarea{
+    resize: none;
+    margin: 0rem 1rem 0rem 10rem;
+    width: 60.8%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 0.89rem;
+    outline: none;
+}
+/* #textarea:hover
+{
+    border: 2px solid #000957;
+} */
+button
+{
+    margin: 0.5rem 1rem 0rem 10rem;
+    width: 60.8%;
+    border: 1px solid #000957;
+    height: 2.5rem;
+    background-color: #000957;
+    color: white;
+    font-size: 0.89rem;
+}
+button:hover
+{
+    opacity: 0.6;
+}
+#last
+{
+    margin: 1rem 0rem 0rem 3rem;
+    color: #000957;
+}
+.socialmedia
+{
+    height: 1.9rem;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+    filter: brightness(0.5);
+}
+#linkedin
+{
+    margin: 0.5rem 0.5rem 0rem 3rem;
+}
+#goup{
+    margin: 5rem 0rem 0rem 12rem;
+    height: 2.5rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 0.7rem;
+}
+#skill
+{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 6rem;
+}
+#skill2
+{
+    display: flex;
+}
+#seventeen
+{
+    height: 29.5rem;
+}
+#seventeen img
+{
+    height: 4.5rem;
+    margin: 5.3rem 2.2rem 4rem 4rem;
+}
+.images
+{
+    margin-left: 6rem;
+}
+#seventeen
+{
+    background-color: #000957;
+}
+.hamSlide{
+    height: 70vh;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.hamSlide span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 2rem 0rem;
+    font-family: avenir-lt ;
+}
+#menu img{
+    display: none;
+}

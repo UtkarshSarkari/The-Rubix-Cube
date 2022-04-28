@@ -1,0 +1,393 @@
+@media only screen and (max-width: 426px){
+    ul{
+        display: none;
+    }
+    #menu img{
+        display: block;
+        height: 2rem;
+        margin-right: 1.5rem;
+    }
+    #one{
+        flex-direction: column;
+    }
+    #photo {
+        height: 30rem;
+        width: 24.6rem;
+        display: inline-block;
+        background-color: white;
+        margin: 3rem 1rem 0.2rem 1rem;
+        /* margin-top: 3rem; */
+        /* margin-right: 1rem; */
+        overflow: hidden;
+        z-index: 1;
+    }
+    #photo img {
+        height: 45.6rem;
+        margin: 0rem -3rem;
+        z-index: 1;
+    }
+    #about {
+        height: 33.5rem;
+        width: 24.6rem;
+        display: inline-block;
+        background-color: rgb(241, 241, 241);
+        margin: 1rem 1rem 0.2rem 1rem;
+        z-index: 1;
+        font-family: avenir-lt;
+    }
+    #hello {
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin: 5rem 0rem 1rem 0rem;
+    }
+    #whoIAm p {
+        text-align: center;
+        word-spacing: 0.1rem;
+        font-weight: 400;
+        margin: 0rem 1rem 3rem 1rem;
+        font-size: 1.4rem;
+    }
+    #download {
+        margin: 0rem 0rem 4rem 0rem;
+    }
+    #download a {
+        font-size: 1.2rem;
+    }
+    #yearA{
+        display: none;
+    }
+    #studentA{
+        display: none;
+    }
+    #college{
+        display: none;
+    }
+    #course{
+        display: none;
+    }
+    #yearB{
+        display: none;
+    }
+    #studentB{
+        display: none;
+    }
+    #school{
+        display: none;
+    }
+    #subject{
+        display: none;
+    }
+    #addressA{
+        display: none;
+    }
+    #addressB{
+        display: none;
+    }
+    #yearC{
+        display: none;
+    }
+    #school2{
+        display: none;
+    }
+    #subject2{
+        display: none;
+    }
+    #addressC{
+        display: none;
+    }
+    #seventeen {
+        height: 44rem;
+    }
+    #seventeen img {
+        height: 3.5rem;
+        margin: 3rem 2rem 2rem 3rem;
+    }
+    #twelve {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 26%;
+        /* max-width: 25rem; */
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid #000957;
+        border-radius: 0rem;
+        margin: 2rem 0rem;
+        /* width: 3rem; */
+        width: 23rem !important;
+        height: 26rem;
+    }
+    #fourteen {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #000957;
+        flex-direction: column;
+        align-items: center;
+    }
+    #certificate1 {
+        margin: 2.5rem 0rem 0rem 0rem;
+        padding: 3rem;
+        font-size: 1.1rem;
+        height: 22rem;
+    }
+    #certificate2 {
+        margin: 2.2rem 0rem 0rem 0rem;
+        padding: 3rem;
+        font-size: 1.1rem;
+        height: 22rem;
+    }
+    #certificate3 {
+        margin: 2.2rem 0rem 4rem 0rem;
+        padding: 3rem;
+        font-size: 1.1rem;
+        height: 22rem;
+    }
+    #firstname {
+        margin: 3rem 8rem 0.2rem 1.1rem;
+        display: inline-block;
+        font-size: 1.2rem;
+    }
+    #input1 {
+        margin: 0rem 1rem 2rem 1rem;
+        height: 3rem;
+        font-size: 0.89rem;
+        padding: 0rem 1rem 0rem 1rem;
+        outline: none;
+        width: 24.5rem;
+    }
+    #email {
+        margin: 1rem 8.2rem 0.2rem 1.1rem;
+        display: inline-block;
+        font-size: 1.2rem;
+    }
+    #input3 {
+        margin: 0rem 1rem 2rem 1rem;
+        width: 24.5rem;
+        height: 3rem;
+        padding: 0rem 1rem 0rem 1rem;
+        font-size: 0.89rem;
+        outline: none;
+    }
+    #message {
+        margin: 1rem 8.2rem 0.2rem 1.1rem;
+        display: inline-block;
+        font-size: 1.2rem;
+    }
+    textarea {
+        resize: none;
+        margin: 0rem 1rem 0rem 1.1rem;
+        width: 24.5rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        font-size: 0.89rem;
+        outline: none;
+    }
+    button {
+        margin: 1rem 1rem 0rem 1.1rem;
+        width: 24.5rem;
+        border: 1px solid #000957;
+        height: 3.5rem;
+        background-color: #000957;
+        color: white;
+        font-size: 1.1rem;
+    }
+    #about1{
+        display: none;
+    }
+    #sixteen2{
+        display: none;
+    }
+    #social{
+        width: 26.6rem;
+    }
+    #animationline{
+        width: 20rem;
+        margin-left: 1.1rem;
+    }
+    #name1 {
+        margin: 3rem 0rem 0rem 1rem;
+        display: inline-block;
+        font-weight: 400;
+        font-size: 2.3rem;
+        font-family: Avenir LT 35 Light;
+    }
+    #webdeveloper1{
+        margin-left: 1.1rem;
+        font-size: 1.2rem;
+    }
+    .phone{
+        margin-left: 1.1rem;
+        font-size: 1.2rem;
+    }
+    .phonenumber{
+        margin-left: 1.1rem;
+        font-size: 1.2rem;
+    }
+    #social img {
+        height: 2.8rem;
+        margin: 0.8rem 1rem;
+    }
+    .education {
+        font-family: avenir-lt;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+        margin: 1.8rem 0rem;
+        color: #000957;
+    }
+    .projects {
+        font-family: avenir-lt;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+        margin: 1.8rem 0rem;
+        color: #000957;
+        display: flex;
+        justify-content: center;
+    }
+    .card-title {
+        margin-bottom: 0.5rem;
+        font-family: avenir-lt;
+        font-size: 1.5rem;
+    }
+    .card p{
+        font-size: 1.1rem;
+    }
+    .btn-primary{
+        font-size: 1.1rem;
+    }
+    #sixteen1{
+        height: 40rem;
+    }
+    #try{
+        display: block;
+    }
+    #three{
+        display: none;
+    }
+}
+@media only screen and (max-width: 376px){
+    #input1{
+        width: 21rem;
+    }
+    #input3{
+        width: 21rem;
+    }
+    textarea{
+        width: 21rem;
+    }
+    #button{
+        width: 21rem;
+    }
+    textarea{
+        margin: 0rem 1.35rem 0rem 1.1rem;
+    }
+    #social{
+        width: 23.45rem;
+    }
+    #photo{
+        width: 21.4rem;
+    }
+    #photo img{
+        margin: 0rem -5rem;
+    }
+    #about{
+        width: 21.4rem;
+        height: 31rem;
+    }
+    #name1{
+        margin: 3rem 0rem 0rem 0.7rem;
+    }
+    #webdeveloper1 {
+        margin-left: 0.9rem;
+        font-size: 1.2rem;
+    }
+    .phone {
+        margin-left: 0.9rem;
+        font-size: 1rem;
+    }
+    .phonenumber {
+        margin-left: 0.9rem;
+        font-size: 1rem;
+    }
+    #hello{
+        font-size: 2.2rem;
+    }
+    #whoIAm p{
+        font-size: 1.2rem;
+    }
+    #download a {
+        font-size: 1.1rem;
+    }
+    #seventeen img {
+        height: 2.6rem;
+        margin: 3rem 2rem 2rem 3rem;
+    }
+    #seventeen{
+        height: 40rem;
+    }
+    .card{
+        width: 21rem !important;
+    }
+    #animationline{
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 376px){
+    #social{
+        width: 22.5rem;
+    }
+    #seventeen img{
+        margin: 3rem 1rem 2rem 3rem;
+    }
+    #input1{
+        width: 20rem;
+    }
+    #input3{
+        width: 20rem;
+    }
+    textarea{
+        width: 20rem;
+    }
+    #button{
+        width: 20rem;
+    }
+    #firstname{
+        font-size: 1rem;
+    }
+    #email{
+        font-size: 1rem;
+    }
+    #message{
+        font-size: 1rem;
+    }
+    #photo{
+        height: 25rem;
+        width: 20.4rem;
+    }
+    #photo img {
+        margin: 0rem -5.4rem;
+    }
+    #animationline {
+        width: 18rem;
+        margin-left: 1.1rem;
+    }
+    #name1{
+        font-size: 2rem;
+    }
+    #webdeveloper1{
+        font-size: 1.1rem;
+    }
+    #about{
+        width: 20.4rem;
+    }
+    .card{
+        width: 20rem !important;
+    }
+}
